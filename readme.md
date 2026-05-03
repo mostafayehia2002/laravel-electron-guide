@@ -4,6 +4,51 @@ A clean reference guide for converting a Laravel project into a desktop applicat
 
 ---
 
+## What is Electron?
+
+Electron is a desktop application framework that allows developers to build cross-platform desktop apps using web technologies.
+
+It combines:
+
+### Chromium
+Used to render the application interface
+
+### Node.js
+Used to interact with the operating system
+
+This allows web applications to run as native desktop applications.
+
+---
+
+## Why Electron?
+
+Electron was created to solve the problem of rebuilding web applications for desktop platforms.
+
+Instead of rewriting a web app using desktop-specific languages like:
+
+- C#
+- C++
+- Java
+
+You can reuse:
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## How Electron Works in This Project
+
+Electron:
+
+1. Creates a desktop window
+2. Loads the Laravel application
+3. Displays it as a desktop app
+4. Packages it as an executable file
+
+---
+
 ## Requirements
 
 Make sure the following are installed:
